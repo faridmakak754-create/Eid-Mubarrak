@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Eid Mubarak | True Friends Hugging ❤️</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        /* ENHANCED BACKGROUND ANIMATIONS & NEW DESIGN */
+        @keyframes twinkleStar {
+            0%, 100% { opacity: 0.2; transform: scale(0.8);}
+            50% { opacity: 1; transform: scale(1.2);}
+        }
+        @keyframes floatLantern {
+            0%, 100% { transform: translateY(0px) rotate(0deg);}
+            50% { transform: translateY(-18px) rotate(3deg);}
+        }
+        @keyframes walkLeftChar {
+            0% { left: -15%; opacity: 0; transform: translateX(0);}
+            20% { opacity: 1; }
+            80% { left: 35%; transform: translateX(0);}
+            100% { left: 38%; transform: translateX(0);}
+        }
+        @keyframes walkRightChar {
+            0% { right: -15%; opacity: 0; transform: translateX(0) scaleX(1);}
+            20% { opacity: 1; }
+            80% { right: 35%; transform: translateX(0) scaleX(1);}
+            100% { right: 38%; transform: translateX(0) scaleX(1);}
+        }
+        @keyframes embraceHug {
+            0% { transform: scale(1); letter-spacing: 0px; }
+            30% { transform: scale(1.02); letter-spacing: 2px; }
+            100% { transform: scale(1); letter-spacing: 0px; }
+        }
+        @keyframes hugPulse {
+            0%, 100% { transform: scale(1); opacity: 0.6; }
+            50% { transform: scale(1.08); opacity: 1; }
+        }
+        @keyframes floatSakura {
+            0% { transform: translateY(0) translateX(0) rotate(0deg); opacity: 1;}
+            100% { transform: translateY(-100vh) translateX(60px) rotate(360deg); opacity: 0;}
+        }
+        @keyframes shineMoon {
+            0% { filter: drop-shadow(0 0 5px #f9e7b3);}
+            100% { filter: drop-shadow(0 0 20px #ffcc66) drop-shadow(0 0 30px #ffaa55);}
+        }
+        @keyframes floatHeartUp {
+            0% { transform: translateY(0) scale(0.3); opacity: 0; }
+            20% { transform: translateY(-20px) scale(1); opacity: 1; }
+            100% { transform: translateY(-800px) scale(0.8); opacity: 0; }
+        }
+        @keyframes blinkCursor {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
+        /* NEW BACKGROUND AURORA + GLOW EFFECT */
+        @keyframes auroraFlow {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        @keyframes shimmerClouds {
+            0% { opacity: 0.4; transform: translateX(-5px);}
+            100% { opacity: 0.8; transform: translateX(5px);}
+        }
+        
+        .twinkle-star { animation: twinkleStar 2.5s infinite ease-in-out; }
+        .lantern-float { animation: floatLantern 3.8s infinite ease-in-out; }
+        .walk-left { animation: walkLeftChar 5s cubic-bezier(0.4, 0.8, 0.6, 1) forwards; position: absolute; bottom: 12%; z-index: 30; }
+        .walk-right { animation: walkRightChar 5s cubic-bezier(0.4, 0.8, 0.6, 1) forwards; position: absolute; bottom: 12%; z-index: 30; }
+        .hug-embrace { animation: embraceHug 0.8s ease-in-out 3; }
+        .hug-heart-pulse { animation: hugPulse 1.2s ease-in-out infinite; }
+        .sakura-float { animation: floatSakura 7s linear infinite; }
+        .moon-glow { animation: shineMoon 2s infinite alternate; }
+        
+        /* GLASS CARD WITH NEW EID THEME */
+        .glass-card {
+            background: rgba(10, 25, 35, 0.65);
+            backdrop-filter: blur(18px);
+            border: 1px solid rgba(255, 215, 120, 0.6);
+            border-radius: 2rem;
+            box-shadow: 0 25px 45px rgba(0,0,0,0.4), 0 0 40px rgba(255,180,80,0.3);
+        }
+        
+        .typed-cursor {
+            display: inline-block;
+            width: 3px;
+            background: linear-gradient(135deg, #ffd700, #ffaa33);
+            margin-left: 2px;
+            animation: blinkCursor 0.8s infinite;
+            border-radius: 2px;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            overflow-x: hidden;
+        }
+        
+        /* NEW BACKGROUND: DEEPENED TWILIGHT WITH MOSQUE SILHOUETTE AND SOFT AURORA */
+        .bg-eid-magic {
+            background: radial-gradient(circle at 20% 30%, #0c1f2e, #071626, #031025);
+        }
+        
+        /* IMPROVED MOSQUE SILHOUETTE WITH GREATER DETAIL AND SHORTER HEIGHT */
+        .mosque-silhouette-new {
+            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 100"><path fill="%231c2f1f" d="M0,100 L0,68 Q40,60 90,65 L150,52 Q195,42 245,56 L305,43 Q355,33 410,48 L470,38 Q520,28 575,42 L635,33 Q680,25 740,38 L800,28 Q860,18 920,34 L980,26 Q1035,16 1090,32 L1150,44 L1200,36 L1200,100 Z" opacity="0.9"/><path fill="%2330572a" d="M0,100 L0,78 Q70,68 145,76 L250,62 Q325,50 400,68 L500,58 Q580,46 660,62 L770,52 Q850,40 930,58 L1040,48 Q1120,38 1200,54 L1200,100 Z" opacity="0.85"/><path fill="%234a7242" d="M0,100 L0,88 Q110,78 220,86 L340,75 Q440,68 550,82 L670,72 Q780,64 890,80 L1020,72 Q1110,66 1200,78 L1200,100 Z" opacity="0.7"/></svg>') repeat-x bottom;
+            background-size: 1200px 68px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 70px;
+            z-index: 8;
+        }
+        
+        /* ADDING MAGICAL SPARKLE OVERLAY */
+        .sparkle-overlay {
+            position: absolute;
+            inset: 0;
+            pointer-events: none;
+            background: radial-gradient(circle at 70% 20%, rgba(255,210,90,0.08) 0%, transparent 60%);
+        }
+        
+        .character-container {
+            transition: all 0.3s ease;
+        }
+        
+        .hug-overlay {
+            background: radial-gradient(circle, rgba(255,200,100,0.35) 0%, rgba(255,100,100,0.15) 100%);
+            border-radius: 60px;
+        }
+        
+        /* Floating Ornaments */
+        .eid-ornament {
+            animation: floatLantern 4.5s infinite ease-in-out;
+        }
+    </style>
+</head>
+<body class="min-h-screen w-full relative text-white" style="background: linear-gradient(145deg, #0c1f2e 0%, #07172a 45%, #03101f 100%);">
+
+    <!-- Background decorative layers: NEW PATTERN + AURORA EFFECT -->
+    <div class="fixed inset-0 -z-20 overflow-hidden">
+        <!-- Shimmering warm haze overlay for Eid glow -->
+        <div class="absolute inset-0 bg-gradient-to-tr from-amber-900/10 via-emerald-900/5 to-cyan-900/15"></div>
+        <div class="absolute top-0 left-0 w-full h-full opacity-30" style="background: radial-gradient(ellipse at 40% 30%, rgba(255,200,100,0.2), transparent 70%);"></div>
+        <!-- Subtle moving clouds / light stripes -->
+        <div class="absolute top-[15%] left-0 w-[200%] h-48 bg-gradient-to-r from-transparent via-amber-500/5 to-transparent rotate-12 animate-pulse" style="filter: blur(40px); animation: shimmerClouds 14s infinite alternate;"></div>
+        <div class="absolute bottom-[20%] right-0 w-[180%] h-72 bg-gradient-to-l from-transparent via-orange-400/5 to-transparent -rotate-6 animate-pulse" style="filter: blur(45px); animation: shimmerClouds 18s infinite alternate-reverse;"></div>
+    </div>
+
+    <!-- Stars container (enhanced) -->
+    <div id="starsContainer" class="fixed inset-0 -z-15 pointer-events-none"></div>
+    
+    <!-- Moon and clouds background -->
+    <div class="fixed inset-0 -z-10 pointer-events-none">
+        <div class="absolute top-[8%] right-[8%] moon-glow z-10">
+            <div class="relative">
+                <div class="w-32 h-32 md:w-36 md:h-36 bg-[#fff9e8] rounded-full shadow-2xl shadow-amber-500/40" style="box-shadow: 0 0 25px #ffdd99;"></div>
+                <div class="absolute -top-5 -right-10 w-24 h-24 md:w-28 md:h-28 bg-gradient-to-br from-[#0c1f2e] to-[#021020] rounded-full shadow-inner"></div>
+                <div class="absolute -top-7 -right-7 w-12 h-12 bg-[#0c1f2e] rounded-full"></div>
+                <div class="absolute top-4 left-2 w-3 h-3 bg-[#0c1f2e] rounded-full opacity-70"></div>
+            </div>
+        </div>
+        <!-- Some soft stars near moon -->
+        <div class="absolute top-[5%] left-[15%] w-2 h-2 bg-white rounded-full blur-[1px] animate-pulse"></div>
+        <div class="absolute top-[12%] left-[25%] w-1.5 h-1.5 bg-amber-200 rounded-full blur-[0.5px] animate-pulse" style="animation-duration: 3s;"></div>
+    </div>
+
+    <!-- Mosque Silhouette - Beautiful NEW layered design -->
+    <div class="mosque-silhouette-new"></div>
+    <!-- Additional decorative ground texture -->
+    <div class="absolute bottom-0 left-0 w-full h-20 bg-gradient-to-t from-emerald-950/80 to-transparent z-7"></div>
+
+    <!-- Music Button -->
+    <div class="fixed bottom-6 left-6 z-50">
+        <button id="musicToggleBtn" class="bg-black/50 backdrop-blur-md w-12 h-12 rounded-full flex items-center justify-center border border-amber-400/70 hover:scale-110 transition-all shadow-2xl">
+            <i id="musicIcon" class="fas fa-volume-mute text-amber-300 text-xl"></i>
+        </button>
+    </div>
+
+    <!-- Fireworks Canvas -->
+    <canvas id="fireworksCanvas" class="fixed inset-0 pointer-events-none z-40"></canvas>
+
+    <!-- Main Content -->
+    <main class="relative z-20 flex flex-col items-center justify-center min-h-screen px-4 py-6">
+        
+        <div class="glass-card rounded-3xl p-6 md:p-8 max-w-3xl w-full text-center mt-20 md:mt-16 mx-auto shadow-2xl border border-amber-400/30">
+            <div class="text-2xl md:text-4xl font-extrabold flex justify-center items-center flex-wrap gap-2 mb-2">
+                <span id="typedPersonalMsg" class="inline-block" style="background: linear-gradient(135deg, #FFE6B0, #FFCC77, #FFAA44); -webkit-background-clip: text; background-clip: text; color: transparent; text-shadow: 0 2px 5px rgba(0,0,0,0.2);"></span>
+            </div>
+            <div class="mt-3 text-lg md:text-xl text-amber-100/95 font-medium">
+                <i class="fas fa-star-and-crescent text-yellow-400"></i> “True friendship makes Eid more special.” <i class="fas fa-star-and-crescent text-yellow-400"></i>
+            </div>
+            <div class="mt-8 flex justify-center">
+                <button id="bestFriendsBtn" class="bg-gradient-to-r from-amber-600 to-orange-500 hover:from-amber-700 hover:to-orange-600 text-white font-bold py-3 px-10 rounded-full shadow-xl transition-all duration-300 transform hover:scale-105 flex items-center gap-3 text-lg">
+                    <i class="fas fa-hand-holding-heart"></i> Best Friends Forever
+                    <i class="fas fa-heart text-red-300 animate-pulse"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Characters Scene -->
+        <div class="relative w-full max-w-5xl mx-auto mt-14 mb-8 h-96 md:h-[420px]">
+            <div class="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-emerald-900/80 via-emerald-800/30 to-transparent rounded-t-3xl z-5"></div>
+            
+            <div id="friend1Container" class="walk-left character-container" style="left: -15%;">
+                <div class="flex flex-col items-center">
+                    <div class="relative">
+                        <svg width="130" height="170" viewBox="0 0 130 170" fill="none" xmlns="http://www.w3.org/2000/svg" class="drop-shadow-2xl">
+                            <rect x="35" y="70" width="60" height="85" rx="10" fill="#2d6a4f"/>
+                            <rect x="35" y="70" width="60" height="85" rx="10" fill="url(#kurtaGrad1)"/>
+                            <circle cx="65" cy="50" r="28" fill="#d4a574"/>
+                            <path d="M37 42 Q40 25 55 22 Q65 20 75 24 Q85 28 93 42" fill="#3d2b1f" stroke="#2c1a0e" stroke-width="1"/>
+                            <ellipse cx="55" cy="48" rx="4" ry="5" fill="white"/>
+                            <ellipse cx="75" cy="48" rx="4" ry="5" fill="white"/>
+                            <circle cx="56" cy="49" r="2.5" fill="#4a2c1a"/>
+                            <circle cx="76" cy="49" r="2.5" fill="#4a2c1a"/>
+                            <path d="M58 58 Q65 66 72 58" stroke="#8b5e3c" stroke-width="2" fill="none" stroke-linecap="round"/>
+                            <path d="M35 85 L15 75 L10 90" stroke="#d4a574" stroke-width="8" fill="none" stroke-linecap="round"/>
+                            <path d="M95 85 L115 75 L120 90" stroke="#d4a574" stroke-width="8" fill="none" stroke-linecap="round"/>
+                            <rect x="42" y="150" width="16" height="25" rx="5" fill="#4a6741"/>
+                            <rect x="72" y="150" width="16" height="25" rx="5" fill="#4a6741"/>
+                            <defs>
+                                <linearGradient id="kurtaGrad1" x1="0" y1="0" x2="0" y2="1">
+                                    <stop offset="0%" stop-color="#3d8b40" stop-opacity="0.4"/>
+                                    <stop offset="100%" stop-color="#1b5e2a" stop-opacity="0.4"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                        <div class="absolute -bottom-8 left-1/2 transform -translate-x-1/2 bg-black/50 backdrop-blur-md px-4 py-1 rounded-full text-sm font-semibold whitespace-nowrap">
+                            <i class="fas fa-smile-wink text-yellow-400"></i> Rahim
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="friend2Container" class="walk-right character-container" style="right: -15%;">
+                <div class="flex flex-col items-center">
+                    <div class="relative">
+                        <svg width="130" height="170" viewBox="0 0 130 170" fill="none" xmlns="http://www.w3.org/2000/svg" class="drop-shadow-2xl">
+                            <rect x="35" y="70" width="60" height="85" rx="10" fill="#1e5631"/>
+                            <rect x="35" y="70" width="60" height="85" rx="10" fill="url(#kurtaGrad2)"/>
+                            <circle cx="65" cy="50" r="28" fill="#c49a6c"/>
+                            <path d="M40 45 Q42 28 55 24 Q68 22 80 28 Q90 34 92 48" fill="#2a1a0e" stroke="#1a0a00" stroke-width="1"/>
+                            <ellipse cx="55" cy="48" rx="4" ry="5" fill="white"/>
+                            <ellipse cx="75" cy="48" rx="4" ry="5" fill="white"/>
+                            <circle cx="56" cy="49" r="2.5" fill="#3d2b1a"/>
+                            <circle cx="76" cy="49" r="2.5" fill="#3d2b1a"/>
+                            <path d="M57 58 Q65 68 73 58" stroke="#7a4a2a" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+                            <path d="M35 85 L12 78 L8 92" stroke="#c49a6c" stroke-width="8" fill="none" stroke-linecap="round"/>
+                            <path d="M95 85 L118 78 L122 92" stroke="#c49a6c" stroke-width="8" fill="none" stroke-linecap="round"/>
+                            <rect x="42" y="150" width="16" height="25" rx="5" fill="#3a5a30"/>
+                            <rect x="72" y="150" width="16" height="25" rx="5" fill="#3a5a30"/>
+                            <defs>
+                                <linearGradient id="kurtaGrad2" x1="0" y1="0" x2="0" y2="1">
+                                    <stop offset="0%" stop-color="#2d7a3a" stop-opacity="0.4"/>
+                                    <stop offset="100%" stop-color="#164a1e" stop-opacity="0.4"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                        <div class="absolute -bottom-8 left-1/2 transform -translate-x-1/2 bg-black/50 backdrop-blur-md px-4 py-1 rounded-full text-sm font-semibold whitespace-nowrap">
+                            Karim <i class="fas fa-star text-yellow-400"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="hugScene" class="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 z-40 hidden flex-col items-center">
+                <div class="relative hug-overlay p-6 rounded-full">
+                    <svg width="280" height="200" viewBox="0 0 280 200" fill="none" xmlns="http://www.w3.org/2000/svg" class="drop-shadow-2xl hug-heart-pulse">
+                        <rect x="30" y="70" width="55" height="80" rx="8" fill="#2d6a4f"/>
+                        <circle cx="58" cy="50" r="24" fill="#d4a574"/>
+                        <rect x="190" y="70" width="55" height="80" rx="8" fill="#1e5631"/>
+                        <circle cx="218" cy="50" r="24" fill="#c49a6c"/>
+                        <path d="M85 90 L120 85 L130 100 L120 110 L85 105" stroke="#d4a574" stroke-width="6" fill="none" stroke-linecap="round"/>
+                        <path d="M190 90 L155 85 L145 100 L155 110 L190 105" stroke="#c49a6c" stroke-width="6" fill="none" stroke-linecap="round"/>
+                        <text x="130" y="35" font-size="30" fill="#ff3366" class="hug-heart-pulse">❤️</text>
+                        <text x="100" y="25" font-size="22" fill="#ff6680" class="hug-heart-pulse" style="animation-delay: 0.3s;">❤️</text>
+                        <text x="160" y="28" font-size="24" fill="#ff6699" class="hug-heart-pulse" style="animation-delay: 0.6s;">❤️</text>
+                    </svg>
+                </div>
+                <div class="mt-3 text-2xl font-bold text-yellow-200 bg-black/50 backdrop-blur-md px-6 py-2 rounded-full">
+                    🤗 A Warm Embrace! 🤗
+                </div>
+                <div class="text-sm text-amber-300 mt-2">"True friends, forever together"</div>
+            </div>
+        </div>
+
+        <div class="glass-card rounded-2xl p-6 md:p-7 max-w-3xl w-full text-center mt-6 mb-12">
+            <p id="finalMessage" class="text-xl md:text-2xl font-light leading-relaxed text-amber-50">
+                “May your Eid be filled with happiness, peace, laughter, and unforgettable memories ❤️”
+            </p>
+            <div class="flex justify-center gap-5 mt-5 text-amber-400 text-2xl">
+                <i class="fas fa-star-and-crescent animate-pulse"></i>
+                <i class="fas fa-heart text-red-400 animate-pulse"></i>
+                <i class="fas fa-hand-holding-heart"></i>
+                <i class="fas fa-star-and-crescent animate-pulse"></i>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        (function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const visitorName = urlParams.get("name") || "Friend";
+            const eidMessage = `Eid Mubarak ${visitorName} ❤️`;
+            
+            const typedSpan = document.getElementById('typedPersonalMsg');
+            let i = 0;
+            typedSpan.innerHTML = '';
+            
+            function typeWriter() {
+                if (i < eidMessage.length) {
+                    typedSpan.innerHTML = eidMessage.substring(0, i + 1) + '<span class="typed-cursor"></span>';
+                    i++;
+                    setTimeout(typeWriter, 100);
+                } else {
+                    const cursor = typedSpan.querySelector('.typed-cursor');
+                    if (cursor) cursor.remove();
+                    createHearts(15);
+                }
+            }
+            typeWriter();
+            
+            // Enhanced Stars Generation (more dynamic)
+            const starsContainer = document.getElementById('starsContainer');
+            for(let i=0; i<380; i++) {
+                const star = document.createElement('div');
+                const size = Math.random() * 3 + 1;
+                star.style.cssText = `
+                    position: absolute;
+                    width: ${size}px;
+                    height: ${size}px;
+                    background: rgba(255, 245, 190, ${Math.random() * 0.8 + 0.2});
+                    border-radius: 50%;
+                    top: ${Math.random() * 100}%;
+                    left: ${Math.random() * 100}%;
+                    box-shadow: 0 0 6px rgba(255,220,100,0.7);
+                    animation: twinkleStar ${Math.random() * 3 + 2}s infinite;
+                    animation-delay: ${Math.random() * 4}s;
+                `;
+                starsContainer.appendChild(star);
+            }
+            
+            // Floating Lanterns & Ornaments
+            for(let i=0; i<12; i++) {
+                const lantern = document.createElement('div');
+                lantern.innerHTML = i % 3 === 0 ? '<i class="fas fa-lantern text-3xl text-amber-400 drop-shadow-xl"></i>' : '<i class="fas fa-moon text-2xl text-yellow-300 drop-shadow"></i>';
+                lantern.style.cssText = `
+                    position: absolute;
+                    left: ${Math.random() * 90 + 5}%;
+                    top: ${Math.random() * 70 + 10}%;
+                    opacity: 0.75;
+                    animation: floatLantern ${Math.random() * 4 + 3.5}s infinite;
+                    z-index: 6;
+                    pointer-events: none;
+                    filter: drop-shadow(0 4px 6px rgba(0,0,0,0.3));
+                `;
+                document.querySelector('main').appendChild(lantern);
+            }
+            
+            // Sakura Petals (Festive touch)
+            for(let i=0; i<25; i++) {
+                const petal = document.createElement('div');
+                petal.innerHTML = Math.random() > 0.6 ? '🌸' : '✨';
+                petal.style.cssText = `
+                    position: fixed;
+                    left: ${Math.random() * 100}%;
+                    top: ${Math.random() * 100}%;
+                    font-size: ${Math.random() * 16 + 8}px;
+                    opacity: ${Math.random() * 0.6 + 0.2};
+                    animation: floatSakura ${Math.random() * 7 + 6}s linear infinite;
+                    animation-delay: ${Math.random() * 6}s;
+                    pointer-events: none;
+                    z-index: 45;
+                `;
+                document.body.appendChild(petal);
+            }
+            
+            // Fireworks system
+            const canvas = document.getElementById('fireworksCanvas');
+            const ctx = canvas.getContext('2d');
+            let particles = [];
+            
+            function resizeCanvas() {
+                canvas.width = window.innerWidth;
+                canvas.height = window.innerHeight;
+            }
+            window.addEventListener('resize', resizeCanvas);
+            resizeCanvas();
+            
+            class Particle {
+                constructor(x, y, vx, vy, color, size) {
+                    this.x = x; this.y = y; this.vx = vx; this.vy = vy;
+                    this.color = color; this.size = size; this.gravity = 0.1;
+                    this.alpha = 1; this.decay = 0.018;
+                }
+                update() {
+                    this.vx *= 0.99;
+                    this.vy += this.gravity;
+                    this.x += this.vx;
+                    this.y += this.vy;
+                    this.alpha -= this.decay;
+                    return this.alpha > 0;
+                }
+                draw() {
+                    ctx.save();
+                    ctx.globalAlpha = this.alpha;
+                    ctx.beginPath();
+                    ctx.arc(this.x, this.y, this.size, 0, Math.PI*2);
+                    ctx.fillStyle = this.color;
+                    ctx.fill();
+                    ctx.restore();
+                }
+            }
+            
+            function launchFireworks() {
+                const colors = ['#ff66cc', '#ffaa44', '#ff6644', '#ff44aa', '#66ffcc', '#ffcc66', '#ff88aa', '#aaffdd'];
+                for(let i=0;i<160;i++) {
+                    const angle = Math.random() * Math.PI * 2;
+                    const speed = Math.random() * 7 + 2;
+                    particles.push(new Particle(
+                        canvas.width/2 + (Math.random()-0.5)*180,
+                        canvas.height-100 + (Math.random()-0.5)*70,
+                        Math.cos(angle) * speed,
+                        Math.sin(angle) * speed - 3.5,
+                        colors[Math.floor(Math.random() * colors.length)],
+                        Math.random() * 5 + 2
+                    ));
+                }
+                animate();
+            }
+            
+            function animate() {
+                if(particles.length === 0) {
+                    ctx.clearRect(0, 0, canvas.width, canvas.height);
+                    return;
+                }
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+                for(let i=0;i<particles.length;i++) {
+                    if(!particles[i].update()) {
+                        particles.splice(i,1);
+                        i--;
+                    } else {
+                        particles[i].draw();
+                    }
+                }
+                requestAnimationFrame(animate);
+            }
+            
+            function createHearts(count=15) {
+                const container = document.createElement('div');
+                container.style.cssText = 'position: fixed; bottom: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 55;';
+                document.body.appendChild(container);
+                for(let i=0;i<count;i++) {
+                    const heart = document.createElement('div');
+                    heart.innerHTML = Math.random() > 0.5 ? '❤️' : '💖';
+                    heart.style.cssText = `
+                        position: absolute;
+                        left: ${Math.random() * 100}%;
+                        bottom: -20px;
+                        font-size: ${Math.random() * 26 + 16}px;
+                        opacity: ${Math.random() * 0.8 + 0.4};
+                        animation: floatHeartUp ${Math.random() * 5 + 4}s linear forwards;
+                    `;
+                    container.appendChild(heart);
+                    setTimeout(() => heart.remove(), 5000);
+                }
+                setTimeout(() => container.remove(), 6000);
+            }
+            
+            // Walking & Hugging
+            const friend1 = document.getElementById('friend1Container');
+            const friend2 = document.getElementById('friend2Container');
+            const hugScene = document.getElementById('hugScene');
+            let hugTriggered = false;
+            
+            function triggerHug() {
+                if(hugTriggered) return;
+                hugTriggered = true;
+                friend1.style.opacity = '0';
+                friend2.style.opacity = '0';
+                friend1.style.pointerEvents = 'none';
+                friend2.style.pointerEvents = 'none';
+                hugScene.classList.remove('hidden');
+                hugScene.classList.add('flex');
+                launchFireworks();
+                createHearts(50);
+                const hugSvg = hugScene.querySelector('svg');
+                if(hugSvg) hugSvg.classList.add('hug-embrace');
+            }
+            
+            let leftArrived = false, rightArrived = false;
+            friend1.addEventListener('animationend', (e) => {
+                if(e.animationName === 'walkLeftChar') {
+                    leftArrived = true;
+                    friend1.style.animation = 'none';
+                    friend1.style.left = '38%';
+                    if(leftArrived && rightArrived) triggerHug();
+                }
+            });
+            friend2.addEventListener('animationend', (e) => {
+                if(e.animationName === 'walkRightChar') {
+                    rightArrived = true;
+                    friend2.style.animation = 'none';
+                    friend2.style.right = '38%';
+                    if(leftArrived && rightArrived) triggerHug();
+                }
+            });
+            setTimeout(() => { if(!hugTriggered) triggerHug(); }, 5800);
+            
+            const btn = document.getElementById('bestFriendsBtn');
+            const finalMsg = document.getElementById('finalMessage');
+            btn.addEventListener('click', () => {
+                launchFireworks();
+                createHearts(55);
+                finalMsg.classList.add('scale-105', 'transition-transform', 'duration-300');
+                setTimeout(() => finalMsg.classList.remove('scale-105'), 500);
+            });
+            finalMsg.addEventListener('click', () => {
+                launchFireworks();
+                createHearts(30);
+            });
+            
+            // Music Toggle
+            const musicBtn = document.getElementById('musicToggleBtn');
+            const musicIcon = document.getElementById('musicIcon');
+            const audio = new Audio('https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3');
+            audio.loop = true;
+            audio.volume = 0.25;
+            let musicPlaying = false;
+            musicBtn.addEventListener('click', () => {
+                if(!musicPlaying) {
+                    audio.play().catch(e => console.log('enable interaction'));
+                    musicIcon.classList.remove('fa-volume-mute');
+                    musicIcon.classList.add('fa-music');
+                    musicPlaying = true;
+                } else {
+                    audio.pause();
+                    musicIcon.classList.remove('fa-music');
+                    musicIcon.classList.add('fa-volume-mute');
+                    musicPlaying = false;
+                }
+            });
+            setTimeout(() => { launchFireworks(); createHearts(25); }, 1300);
+        })();
+    </script>
+</body>
+</html>
